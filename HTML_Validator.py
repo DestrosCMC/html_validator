@@ -73,6 +73,6 @@ def _extract_tags(html):
     '''
     tags = re.findall(r'<[^>]+>', html)
 #    if (not tags) and ('<' in html):
-#        raise ValueError('found < without matching >') 
+#        raise ValueError('found < without matching >')
 
     return tags
